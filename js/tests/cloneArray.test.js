@@ -1,5 +1,5 @@
 const { expect } = require('@jest/globals')
-const cloneArray = require('./cloneArray')
+const cloneArray = require('../functions/cloneArray')
 
 test('properly clones array', () => {
     const array = [1, 2, 3]
